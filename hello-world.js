@@ -10,14 +10,14 @@ var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
 
-    if (input.value === '') {
+    if (input === '') {
         return 'Hello, World!'
     }
 
-    if (input.value === 'Bob') {
+    if (input === 'Bob') {
         return 'Hello, Bob!'
     }
-    if (input.value === 'Sally') {
+    if (input === 'Sally') {
         return 'Hello, Sally!'
     }
 
